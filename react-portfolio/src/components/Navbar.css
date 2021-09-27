@@ -1,0 +1,15 @@
+
+.navbar li {
+    display: inline-flex;
+    /*I wanted the nav li to stack when the window was at it's smallest*/
+    border-right: black;
+    border: 5px black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.navbar nav a:hover {
+    /*This is how I got the colors to invert when the mouse hovers over the nav options*/
+    background-color:black;
+    color:orange;
+    text-decoration: none;
+}

@@ -3,9 +3,10 @@ import Footer from './Footer';
 import Header from './Header';
 import Navbar from './Navbar';
 import AboutMe from './pages/AboutMe';
-import ContactInfo from './pages/ContactInfo';
+import ContactMe from './pages/ContactMe';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import './Project.css'
 
 function Project() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -15,7 +16,7 @@ function Project() {
             return <AboutMe />;
         }
         if (currentPage === 'ContactInfo') {
-            return <ContactInfo />;
+            return <ContactMe />;
         }
         if (currentPage === 'Portfolio') {
             return <Portfolio />;
@@ -28,11 +29,11 @@ function Project() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <div id="Project">
           <Header />
           <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-          <Footer />
           {renderPage()}
+          <Footer />
         </div>
       );
     }   

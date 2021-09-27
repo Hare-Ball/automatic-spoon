@@ -1,4 +1,5 @@
 import React from 'react';
+import './Navbar.css'
 
 // const styles = {
 //   card: {
@@ -18,6 +19,8 @@ import React from 'react';
 // In Navbar, we can assign a style from an object by using curly braces
 function Navbar({currentPage, handlePageChange}) {
   return (
+    <div class= "container col-12 justify-content-center" id="Navbar">
+    <section class="card">
     <ul className="nav nav-tabs">
     <li className="nav-item">
       <a
@@ -27,7 +30,7 @@ function Navbar({currentPage, handlePageChange}) {
         // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
         className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
       >
-        About Me
+        About Me ❔
       </a>
     </li>
     <li className="nav-item">
@@ -37,7 +40,7 @@ function Navbar({currentPage, handlePageChange}) {
         // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
         className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
       >
-        Portfolio
+        Portfolio 🎨
       </a>
     </li>
     <li className="nav-item">
@@ -47,7 +50,7 @@ function Navbar({currentPage, handlePageChange}) {
         // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
         className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
       >
-        Resume
+        Resume 💻
       </a>
     </li>
     <li className="nav-item">
@@ -57,10 +60,12 @@ function Navbar({currentPage, handlePageChange}) {
         // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
         className={currentPage === 'ContacInfo' ? 'nav-link active' : 'nav-link'}
       >
-        Contact Me
+        Contact Me 📭
       </a>
     </li>
   </ul>
+  </section>
+  </div>
   );
 }
 

@@ -3,30 +3,27 @@ import React from 'react';
 function Resume() {
     return(
             <div class= "container col-12 justify-content-center" id="Contact-Me">
-                
-TECHNICAL SKILLS
+                 <section class="card">
+                <br />
+                <h3>TECHNICAL SKILLS</h3>
 
-HTML, CSS, JS, Git, jQuery, Node.js, Express.js, MySQL, MongoDB, Sequelize, Handlebars 
+                HTML, CSS, JS, Git, jQuery, Node.js, Express.js, MySQL, Sequelize, MongoDB, Mongoose, Handlebars, React, GraphQL, Stripe 
+                <br />
+                <br />
+               
+                <h3>EDUCATION</h3>
 
-EXPERIENCE
-
-Harmony School of Innovation, Carrollton — Classroom Teacher
-August 2015 - PRESENT
-Designated Exemplary by the Teacher Incentive Allotment of the Texas Education Agency
-Curriculum-Writer, Mentor Teacher, Professional Learning Community Facilitator, and Classroom Teacher
-
-Firetrol, Dallas — Fire Alarm Installer
-April 2013 - February 2015
-Completed Class A Fire Code compliance for Bryan Tower in Downtown Dallas 
-Installed Fire Alarm for Brady Luxury Apartments
-
-EDUCATION
-
-SMU Boot Camps  — Certificate in Web Development
-April 2021 - PRESENT (October 2021)
-Harding University  — Bachelor of Arts
-August 2007 - May 2011
-
+                SMU Boot Camps  — Certificate in Web Development
+                April 2021 - PRESENT (October 2021)
+                <br />
+                Harding University  — Bachelor of Arts
+                August 2007 - May 2011
+                <br />
+                <br />
+                <a href= "https://docdro.id/NLlQzQ8">Click here to download a copy of my resume! </a>
+                <br />
+                <br />
+                </section>
             </div>        
     )
 }
