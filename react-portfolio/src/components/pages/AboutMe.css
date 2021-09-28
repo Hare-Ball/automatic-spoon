@@ -1,0 +1,13 @@
+img {
+    width:80%;
+    padding: 10px;
+    border-radius: 10px !important;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    text-align: center;
+    list-style: inside;
+    list-style-type: none;
+}

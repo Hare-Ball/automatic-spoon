@@ -1,4 +1,5 @@
 import React from 'react';
+import './AboutMe.css'
 import profile from '../../assets/images/Palo-Duro-Profile-Pic.jpg'
 
 function AboutMe() {
