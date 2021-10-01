@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/automatic-spoon/static/css/main.48d6e7ad.chunk.css",
-    "main.js": "/automatic-spoon/static/js/main.a1a36ca0.chunk.js",
-    "main.js.map": "/automatic-spoon/static/js/main.a1a36ca0.chunk.js.map",
+    "main.css": "/automatic-spoon/static/css/main.933030a7.chunk.css",
+    "main.js": "/automatic-spoon/static/js/main.f76ccd90.chunk.js",
+    "main.js.map": "/automatic-spoon/static/js/main.f76ccd90.chunk.js.map",
     "runtime-main.js": "/automatic-spoon/static/js/runtime-main.65733475.js",
     "runtime-main.js.map": "/automatic-spoon/static/js/runtime-main.65733475.js.map",
     "static/css/2.53150396.chunk.css": "/automatic-spoon/static/css/2.53150396.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.417f8b65.chunk.js.map": "/automatic-spoon/static/js/3.417f8b65.chunk.js.map",
     "index.html": "/automatic-spoon/index.html",
     "static/css/2.53150396.chunk.css.map": "/automatic-spoon/static/css/2.53150396.chunk.css.map",
-    "static/css/main.48d6e7ad.chunk.css.map": "/automatic-spoon/static/css/main.48d6e7ad.chunk.css.map",
+    "static/css/main.933030a7.chunk.css.map": "/automatic-spoon/static/css/main.933030a7.chunk.css.map",
     "static/js/2.110e0aa9.chunk.js.LICENSE.txt": "/automatic-spoon/static/js/2.110e0aa9.chunk.js.LICENSE.txt",
     "static/media/Note Taker Index.182428ec.png": "/automatic-spoon/static/media/Note Taker Index.182428ec.png",
     "static/media/Note Taker Notes.3545a19d.png": "/automatic-spoon/static/media/Note Taker Notes.3545a19d.png",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.65733475.js",
     "static/css/2.53150396.chunk.css",
     "static/js/2.110e0aa9.chunk.js",
-    "static/css/main.48d6e7ad.chunk.css",
-    "static/js/main.a1a36ca0.chunk.js"
+    "static/css/main.933030a7.chunk.css",
+    "static/js/main.f76ccd90.chunk.js"
   ]
 }
