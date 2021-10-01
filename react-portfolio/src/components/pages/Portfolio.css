@@ -1,7 +1,5 @@
-img {
-    width:80%;
-    padding: 10px;
-    border-radius: 10px !important;
-    display: flex;
-    justify-content: center;
+.ProjectPic {
+    display: flexbox;
+    width: 100%;
+    height: auto
 }

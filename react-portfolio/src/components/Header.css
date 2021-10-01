@@ -1,3 +1,16 @@
 header {
-    color:whitesmoke;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-weight: bolder;
+    color:#EAEDF0;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-weight: bolder;
+    color:#FC5B00;
+    background: #013035;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
 }

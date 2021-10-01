@@ -1,3 +1,13 @@
-#Footer {
-    color:whitesmoke;
+#Foot {
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+i {
+    padding: 10px;
+    font-size: x-large ;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    color: #EAEDF0;
+    background: #013035;
+    border-radius: 10px;
+    
 }

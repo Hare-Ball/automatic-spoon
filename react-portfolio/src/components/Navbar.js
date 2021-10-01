@@ -19,7 +19,7 @@ import './Navbar.css'
 // In Navbar, we can assign a style from an object by using curly braces
 function Navbar({currentPage, handlePageChange}) {
   return (
-    <div class= "container col-12 justify-content-center" id="Navbar">
+    <div class= "container col-9 justify-content-center" id="Navbar">
     <section class="card">
     <ul className="nav nav-tabs">
     <li className="nav-item">

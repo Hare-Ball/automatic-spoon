@@ -5,14 +5,14 @@ import noteTaker2 from '../../assets/images/Note Taker Notes.png'
 
 function Portfolio() {
     return(
-        <div>
+        <div class= "container col-12 justify-content-center">
         <section class ="card">
             <div class= "container col-12 justify-content-center" id="Quote-Generator">
                 <br />
                 <h2>Quote Generator/Translator</h2>
                 <br/>
                 <a href="https://hare-ball.github.io/quote_gen_translator/">
-                <img alt= "Quote Generator" src={quoteGenerator}></img>
+                <img alt= "Quote Generator" src={quoteGenerator} class="ProjectPic"></img>
                 </a>
                 <br/>
                     <p>This was a project that I worked on with two other developers. We wanted to use an API to bring in a randomly generated quote and then use another API to allow the user to translate that quote into the language of their choice. We also decided to utilize local storage so that we can keep the generated quote and translation on the page if the user clicks away to the links in the nav bar or accidenatly closes the page. We have thought of a few different ways to add to this project, including visual asthetics and functionality. We toyed with adding another API to read the quote and translation to the user and other quote APIs so that it is unlikely that a user ever gets a recycled quote. Try it out! </p>
@@ -25,7 +25,7 @@ function Portfolio() {
                 <h2>Note Taker</h2>
                 <br/>
                 <a href="https://afternoon-gorge-81555.herokuapp.com/">
-                <img alt= "Note Taker Index" src={noteTaker1}></img>
+                <img alt= "Note Taker Index" src={noteTaker1} class="ProjectPic"></img>
                 </a>
                 <br/>
                 <a href="https://afternoon-gorge-81555.herokuapp.com/">

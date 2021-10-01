@@ -3,7 +3,7 @@ import './Header.css'
 
 function Header() {
     return (
-        <header className="container" id="header">
+        <header className="container col-2 justify-content-center" id="header">
             <br />
             <br />
             <h1>Robert Hare</h1>

@@ -1,15 +1,10 @@
-
-.navbar li {
-    display: inline-flex;
-    /*I wanted the nav li to stack when the window was at it's smallest*/
-    border-right: black;
-    border: 5px black;
-    border-radius: 10px;
-    padding: 10px;
+#Navbar{
+    font-family:'Big Shoulders Stencil Text', cursive;
+    font-size: large;
+    font-weight: bold;    
+    color: #0088BF; 
 }
-.navbar nav a:hover {
-    /*This is how I got the colors to invert when the mouse hovers over the nav options*/
-    background-color:black;
-    color:orange;
-    text-decoration: none;
+
+.nav {
+    color:#FC5B00
 }
